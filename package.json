@@ -1,0 +1,27 @@
+{
+  "name": "sistema-turnos-reservas-filesystem",
+  "version": "1.0.0",
+  "description": "Primera versión funcional del Sistema Backend de Turnos y Reservas: API REST con Node.js, Express y FileSystem para los recursos services y bookings",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "api-rest",
+    "filesystem",
+    "turnos",
+    "reservas"
+  ],
+  "author": "Sebastián Muñoz",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
